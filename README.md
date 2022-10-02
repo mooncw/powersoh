@@ -43,9 +43,9 @@ Output : ' 역률 ', ‘전류고조파 ', ‘전압고조파 ' 3 가지 도메�
 ※ 결과 정리
 1. 역률
  ＊베이스모델 - 최빈값
- </br>
- ![image](https://user-images.githubusercontent.com/97713997/193463633-296e732a-0e72-4766-a1f7-ef0dc0a09870.png)
- </br>
+</br>
+![image](https://user-images.githubusercontent.com/97713997/193463633-296e732a-0e72-4766-a1f7-ef0dc0a09870.png)
+</br>
  ＊로지스틱회귀
 </br>
  ![image](https://user-images.githubusercontent.com/97713997/193463666-7ed8f305-5ff7-4727-b6df-412c13349ed6.png)
