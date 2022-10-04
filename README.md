@@ -43,33 +43,38 @@ Output : ' 역률 ', ‘전류고조파 ', ‘전압고조파 ' 3 가지 도메�
 
 # 결과 정리
 ### 1. 역률
- ＊베이스모델 - 최빈값
+ **베이스모델 - 최빈값**
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/193464381-815cf025-f552-43df-85c7-74526d6f0fc3.png)
 </br>
- ＊로지스틱회귀
+</br>
+ **로지스틱회귀**
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/193463666-7ed8f305-5ff7-4727-b6df-412c13349ed6.png)
 </br>
 ### 2. 전류고조파
- ＊베이스모델 - 최빈값
+ **베이스모델 - 최빈값**
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/193463707-d936f308-f97d-4528-92b9-b9fdfdcff209.png)
 </br>
- ＊랜덤포레스트
+</br>
+ **랜덤포레스트**
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/193463727-e23778a4-60b9-40f7-b143-4591e4b0bf0b.png)
 </br>
 ### 3. 전압고조파
- ＊베이스모델 - 최빈값
+ **베이스모델 - 최빈값**
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/193463750-78d3a21f-fd80-4e49-b8a3-70f780d5af45.png)
 </br>
- ＊xgboost
+</br>
+ **xgboost**
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/193463785-25208f00-879e-456e-a4a3-f9283890535e.png)
 </br>
 </br>
+### 4. 최종결과
+
 ai허브에서는 평가지표는 macro f1이였고 제출 결과는 밑의 이미지입니다.
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/193463843-0008af29-90cf-4fd7-a343-8361335ebf39.png)
