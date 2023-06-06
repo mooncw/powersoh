@@ -1,4 +1,3 @@
-test
 # powersoh
 EDA, 모델링, 결과 확인 과정의 ipynb 파일
 
