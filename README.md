@@ -39,7 +39,7 @@ Output : '역률', '전류고조파', '전압고조파' 3 가지 도메인에 �
 
 그중 가장 결과가 좋은 랜덤포레스트 분류 모델을 최종 모델로 선택했습니다.
 
-평가지표는 accuracy와 f1_macro를 사용하였습니다.
+평가지표는 accuracy와 macro_f1_score를 사용하였습니다.
 
 # 결과 정리
 ### 1. 역률
@@ -49,7 +49,7 @@ Output : '역률', '전류고조파', '전압고조파' 3 가지 도메인에 �
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/195078577-26f399b5-f2d0-48b0-9ae2-b5a9582e6e91.png)
 </br>
-**f1_macro: 0.23**
+**macro_f1_score: 0.23**
 </br>
 </br>
 </br>
@@ -59,7 +59,7 @@ Output : '역률', '전류고조파', '전압고조파' 3 가지 도메인에 �
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/195079452-4a78002f-b655-444a-a48e-5541963b5dcf.png)
 </br>
-**f1_macro: 0.94**
+**macro_f1_score: 0.94**
 </br>
 </br>
 </br>
@@ -70,7 +70,7 @@ Output : '역률', '전류고조파', '전압고조파' 3 가지 도메인에 �
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/195083359-a71ce0f9-a52e-4ec6-b442-57bcac8db5c1.png)
 </br>
-**f1_macro: 0.30**
+**macro_f1_score: 0.30**
 </br>
 </br>
 </br>
@@ -80,7 +80,7 @@ Output : '역률', '전류고조파', '전압고조파' 3 가지 도메인에 �
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/195083693-2b6bc5df-cbfd-466b-bd84-266bb2d97424.png)
 </br>
-**f1_macro: 0.95**
+**macro_f1_score: 0.95**
 </br>
 </br>
 </br>
@@ -91,7 +91,7 @@ Output : '역률', '전류고조파', '전압고조파' 3 가지 도메인에 �
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/195083927-d4a81f41-a448-4bfe-9862-cdc385d8c926.png)
 </br>
-**f1_macro: 0.19**
+**macro_f1_score: 0.19**
 </br>
 </br>
 </br>
@@ -101,13 +101,13 @@ Output : '역률', '전류고조파', '전압고조파' 3 가지 도메인에 �
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/195084194-f5bc4a05-70a1-4b6f-a914-b5f9aca00cfd.png)
 </br>
-**f1_macro: 0.92**
+**macro_f1_score: 0.92**
 </br>
 </br>
 </br>
 ### 4. 최종결과
 
-ai허브에서는 평가지표는 macro f1이고 제출 결과는 밑의 이미지입니다.
+ai허브에서는 평가지표는 macro_f1_score이고 제출 결과는 밑의 이미지입니다.
 </br>
 ![image](https://user-images.githubusercontent.com/97713997/195084384-c67e417f-0f03-4e92-ac95-bd82d14245ec.png)
 
